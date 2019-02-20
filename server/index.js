@@ -1,4 +1,5 @@
 const express = require('express');
+cnst app = express();
 
 app.get('/temperature', function(req, res) {
     res.send('24 °C');
